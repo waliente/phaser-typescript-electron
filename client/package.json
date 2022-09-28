@@ -1,7 +1,6 @@
 {
-  "name": "landmaster",
+  "name": "phaser-3-typescript-electron-template",
   "version": "0.0.1",
-  "description": "A 2D pixel art RTS game!",
   "main": "dist/index.js",
   "scripts": {
     "dev": "vite",

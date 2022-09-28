@@ -2,7 +2,7 @@
 
 ![Phaser Typescript Electron](https://i.ibb.co/gdVsT4J/phaser-typescript-electron-template.png)
 
-This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeScript](https://www.typescriptlang.org/) and [Electron](https://www.electronjs.org/), [Rollup](https://rollupjs.org) and [Vite](https://vitejs.dev/).
+### This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeScript](https://www.typescriptlang.org/) and [Electron](https://www.electronjs.org/), [Rollup](https://rollupjs.org) and [Vite](https://vitejs.dev/).
 
 ---
 
@@ -12,7 +12,10 @@ The project folder structure is:
 - **client**: where are the phaser ^3.55.2 with typescript 4 rollup and vite is present.
 - **electron**: the electron project.
 
-## Development
+## Instructions
+Execute inside relative folder `yarn` or `npm install` (example: `cd client/ -> yarn`)
+
+### Development
 
 | Command | Description |
 |---------|-------------|
@@ -21,4 +24,4 @@ The project folder structure is:
 | `yarn build` | Builds code bundle with production settings  |
 | `yarn serve` | Run a web server to serve built code bundle |
 
-## Production
+### Production

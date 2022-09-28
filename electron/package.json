@@ -1,6 +1,6 @@
 {
-  "name": "landmaster",
-  "version": "0.0.1",
+  "name": "phaser-3-typescript-electron-template",
+  "version": "1.0.0",
   "main": "main.js",
   "author": "Marco Chierchia",
   "license": "MIT",
