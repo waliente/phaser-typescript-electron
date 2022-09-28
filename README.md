@@ -2,7 +2,7 @@
 
 ![Phaser Typescript Electron](https://i.ibb.co/gdVsT4J/phaser-typescript-electron-template.png)
 
-### This is a [Phaser 3](https://github.com/photonstorm/phaser) starter with [TypeScript](https://www.typescriptlang.org/) and [Electron](https://www.electronjs.org/), [Rollup](https://rollupjs.org) and [Vite](https://vitejs.dev/).
+### This is a 🕹️[Phaser 3](https://github.com/photonstorm/phaser) starter with ⌨️[TypeScript](https://www.typescriptlang.org/) and ⚛️ [Electron](https://www.electronjs.org/), 📦[Rollup](https://rollupjs.org) and [Vite](https://vitejs.dev/).
 
 **&#128293;&#128293; HOT RELOAD ON ELECTRON INCLUDED! &#128293;&#128293;**
 
