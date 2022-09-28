@@ -1,0 +1,26 @@
+{
+  "name": "landmaster",
+  "version": "0.0.1",
+  "main": "main.js",
+  "author": "Marco Chierchia",
+  "license": "MIT",
+  "scripts": {
+    "copy": "yarn --cwd ../client build && node ./scripts/copy-from-client.js",
+    "electron:build": "",
+    "electron:dev": "electron ./main-dev.js",
+    "electron": "electron .",
+    "dev": "yarn --cwd ../client dev --host & yarn electron:dev",
+    "preview": "yarn copy && yarn electron",
+    "build": "yarn copy && yarn electron:build"
+  },
+  "devDependencies": {
+    "electron": "^21.0.0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^10.1.0"
+  },
+  "nodeversion": "14.18.1",
+  "npmversion": "8.13.2"
+}
