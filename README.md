@@ -28,6 +28,17 @@ Inside **client** folder you can run Phaser with Typescript with Rollup and Vite
 | `yarn serve` or `npm run serve` | Run a web server to serve built code bundle |
 
 ### &#128193; Electron folder
-Inside **electron** folder you can run Electron with Phaser! You can run in dev mode or production mode for the final preview and release.
+Inside **electron** folder you can run Electron with Phaser! You can run in dev mode or production mode for the final preview and release. 
 
-### Production
+**&#128293;&#128293; HOT RELOAD INCLUDED! &#128293;&#128293;**
+
+| Command | Description |
+|---------|-------------|
+| `yarn` | Install project dependencies |
+| `yarn dev` | Builds project and open web server from client folder and Electron, **watching for changes** |
+| `yarn preview` | Starts a preview for a final release  |
+| `yarn build`| Build app with Electron |
+
+### TODO
+
+- Better manage of process.env

@@ -1,25 +1,32 @@
 {
   "name": "phaser-3-typescript-electron-template",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "./main.js",
   "author": "Marco Chierchia",
   "license": "MIT",
   "scripts": {
     "copy": "yarn --cwd ../client build && node ./scripts/copy-from-client.js",
-    "electron:build": "",
-    "electron:dev": "electron ./main-dev.js",
     "electron": "electron .",
-    "dev": "yarn --cwd ../client dev --host & yarn electron:dev",
+    "dev": "yarn --cwd ../client dev --host & yarn electron",
     "preview": "yarn copy && yarn electron",
-    "build": "yarn copy && yarn electron:build"
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder",
+    "build": "yarn copy && yarn app:dist"
   },
   "devDependencies": {
-    "electron": "^21.0.0"
+    "electron": "^21.0.0",
+    "electron-builder": "^23.3.3"
   },
   "dependencies": {
     "@electron/remote": "^2.0.8",
     "cheerio": "^1.0.0-rc.12",
     "fs-extra": "^10.1.0"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
   },
   "nodeversion": "14.18.1",
   "npmversion": "8.13.2"
