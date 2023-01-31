@@ -18,7 +18,7 @@ The project folder structure is:
 Execute inside relative folder **client** and **electron** `yarn` or `npm install` to install all dependencies required.
 
 ### &#128193; Client folder
-Inside **client** folder you can run Phaser with Typescript with Rollup and Vite but without Electron.
+Inside **client** folder you can run Phaser with Typescript, Rollup and Vite but without Electron.
 
 | Command | Description |
 |---------|-------------|
